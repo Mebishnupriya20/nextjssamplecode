@@ -15,7 +15,7 @@ return (
     <div className="max-w-2xl mx-auto bg-white p-8 rounded-x1 shadow mt-10">
         <h1 className="text-2xl font-bold mb-6">Add Products</h1>
 
-        <productForm submitText="Add Product" onSubmit={handleAdd} />
+        <ProductForm submitText="Add Product" onSubmit={handleAdd} />
         </div>
 
 );
